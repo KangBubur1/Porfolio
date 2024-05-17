@@ -1,4 +1,4 @@
-Portfolio Project
+# Portfolio Project
 This is a personal portfolio project developed using Next.js and TailwindCSS. The purpose of this project is to learn how to work with Next.js and TypeScript, and to showcase my skills in building responsive, dynamic, and maintainable web applications.
 
 Getting Started
@@ -22,3 +22,4 @@ Developed with Next.js for server-side rendering and static site generation.
 Styled using TailwindCSS for efficient and responsive design.
 Written in TypeScript for type safety and maintainability.
 Utilizes next/font for optimizing and loading custom Google Fonts.
+![Uploading image.png…]()
