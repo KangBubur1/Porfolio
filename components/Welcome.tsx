@@ -50,7 +50,7 @@ const Welcome: React.FC<WelcomeProps> = ({ setName }) => {
                             onClick={handleSubmit}
                             className="px-6 py-3 rounded-md border border-neutral-300 bg-neutral-100 text-neutral-500 text-lg hover:-translate-y-1 transform transition duration-200 hover:shadow-md"
                         >
-                            Let's Go!
+                            Lets Go!
                         </button>
                     </motion.div>
                 )}
