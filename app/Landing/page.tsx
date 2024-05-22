@@ -5,12 +5,15 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
+import { Suspense } from "react";
 
 const Landing = () => {
 
     return (
         <Aside>
-            <Intro />
+            <Suspense fallback={<div>Loading...</div>}>
+                <Intro />
+            </Suspense>
             <Skills />
             <Education />
             <Projects/>
