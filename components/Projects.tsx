@@ -51,7 +51,7 @@ const Projects = () => {
                                 imgSrc="/Images/HF_1.png" 
                                 title="Swish" 
                                 tags="HTML | CSS | Bootstrap5 " 
-                                text="A simple web for employee management" 
+                                text="Learning to style a E-commerce website for shoes" 
                                 href="https://github.com/KangBubur1/Swish"/>
                </div>
 

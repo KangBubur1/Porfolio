@@ -3,7 +3,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import ActiveSectionContextProvider from "@/context/ActiveSection";
 import { Toaster } from "react-hot-toast";
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -35,6 +35,7 @@ export default function RootLayout({
             suppressHydrationWarning={true}>
           <ActiveSectionContextProvider>
             {children}
+            <SpeedInsights />
             <Toaster position='top-right'/>
           </ActiveSectionContextProvider>        
       </body>

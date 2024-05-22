@@ -58,14 +58,14 @@ const CardProjects:React.FC<CardProjectsProps> = ({
         <div className="flex justify-between items-center mt-20">
           <CardItem
             translateZ={20}
-            className="px-4 py-2 rounded-xl text-xs font-normal text-black"
+            className="px-4 py-2 rounded-xl text-xs font-normal text-black dark:text-white" 
           >
             Github <FaGithub/>
           </CardItem>
           <a
             href={href}
             target="_blank"
-            className="text-xs text-black"
+            className="text-xs text-black dark:text-white"
           >
             Learn More →
           </a>
