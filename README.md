@@ -1,5 +1,6 @@
+https://kangdanielportfolio.vercel.app/ 
+
 # Portfolio Project
-https://kangdanielportfolio.vercel.app/
 This is my personal portfolio project developed using Next.js and TailwindCSS. The purpose of this project is to learn how to work with Next.js and TypeScript, and to showcase my skills in building responsive, dynamic, and maintainable web applications.
 
 # Features
@@ -22,4 +23,5 @@ Open http://localhost:3000 with your browser to see the result.
 
 
 
-![image](https://github.com/KangBubur1/Porfolio/assets/95082947/644a91e2-e5d7-4b00-8589-55b512cbc41d)
+![image](https://github.com/KangBubur1/Porfolio/assets/95082947/aab8bd49-920c-4905-8232-65e37dd6852b)
+
