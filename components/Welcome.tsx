@@ -28,12 +28,12 @@ const Welcome: React.FC<WelcomeProps> = ({ setName }) => {
     }
 
     return (
-        <section className="flex flex-col items-center">
-            <div className="!text-white text-2xl items-center mb-12">
-                <TextGenerateEffect words="Hello! Welcome to my Portfolio, Please enter your name" />
+        <section className="flex flex-col items-center bg-black  w-full">
+            <div className="!text-white items-center p-4 justify-center">
+                <TextGenerateEffect words="Hello! Welcome to my Portfolio, Please enter your name" className=""/>
             </div>
 
-            <div className="!text-white text-2xl items-center mb-8">
+            <div className="!text-white items-center mb-8">
                 <BlinkingInput id="visitor_name" value={visitorName} onChange={handleChange} />
             </div>
 
@@ -48,7 +48,7 @@ const Welcome: React.FC<WelcomeProps> = ({ setName }) => {
                     >
                         <button 
                             onClick={handleSubmit}
-                            className="px-6 py-3 rounded-md border border-neutral-300 bg-neutral-100 text-neutral-500 text-lg hover:-translate-y-1 transform transition duration-200 hover:shadow-md"
+                            className="px-2 py-1 sm:px-6 sm:py-3 rounded-md border border-neutral-300 bg-neutral-100 text-neutral-500 text-lg hover:-translate-y-1 transform transition duration-200 hover:shadow-md"
                         >
                             Lets Go!
                         </button>

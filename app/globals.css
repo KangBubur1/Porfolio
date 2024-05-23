@@ -6,14 +6,3 @@
     @apply bg-gray-100 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 border border-gray-100
 }
 
-
-.active-section {
-    border-left: 4px solid #00f; /* Adjust the color as needed */
-}
-
-@media (max-width: 768px) {
-    .active-section {
-        border-left: none;
-        border-bottom: 4px solid #00f; /* Adjust for small screens */
-    }
-}

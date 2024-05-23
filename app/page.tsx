@@ -7,7 +7,7 @@ const Home: React.FC = () => {
   const [name, setName] = useState("");
   
   return (
-      <main className=" h-dvh flex items-center justify-center">
+      <main className=" flex items-center bg-black justify-center min-h-screen ">
           <Welcome setName={setName} />
       </main>
   );
