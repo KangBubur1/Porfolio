@@ -19,7 +19,7 @@ const Contact = () => {
         <motion.section
             id="contact"
             ref={ref}
-            className=" flex flex-col xl:container  px-4 mt-12 md:mt-48 text-center scroll-mt-12"
+            className=" flex flex-col xl:container  px-4 mt-12 md:mt-48 text-center scroll-mt-24 md:scroll-mt-12"
             initial={{
                 opacity: 0,
             }}
@@ -63,7 +63,7 @@ const Contact = () => {
                 }}    className="flex flex-col mt-8">
                 <input 
                         ref = {emailRef}
-                        className="h-14 px-4 rounded-lg  focus:outline-none transition-all text-black"
+                        className="h-14 px-4 rounded-lg  focus:outline-none transition-all text-black dark:text-white"
                         autoComplete="off"
                         name="senderEmail" 
                         type="email"
@@ -73,7 +73,7 @@ const Contact = () => {
                     />
                     <textarea 
                         ref = {messageRef}
-                        className="h-52 my-3 rounded-lg  p-4 focus:outline-none transition-all text-black"
+                        className="h-52 my-3 rounded-lg  p-4 focus:outline-none transition-all text-black dark:text-white"
                         autoComplete="off"
                         name="message" 
                         required

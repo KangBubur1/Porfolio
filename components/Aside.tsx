@@ -108,7 +108,7 @@ const Aside: React.FC<AsideProps> = ({ children }) => {
                     <ul className="mt-24 space-y-4">
                         {links.map((link) => (
                             <li key={link.hash} className="relative text-white">
-                                <Link href={link.hash}>{link.name}</Link>
+                                <Link href={link.hash} onClick={handleClick}>{link.name}</Link>
                             </li>
                         ))}
                     </ul>

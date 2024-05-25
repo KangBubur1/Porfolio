@@ -7,7 +7,7 @@ import SectionHeader from './SectionHeader';
 const Education = () => {
     const { ref } = useSectionInView("Education");
     return (
-<section id="education" className="flex flex-col xl:container  px-4 mt-12 md:mt-48 text-center scroll-mt-12" ref={ref}>
+<section id="education" className="flex flex-col xl:container  px-4 mt-12 md:mt-48 text-center scroll-mt-24 md:scroll-mt-12" ref={ref}>
     <div>
         <SectionHeader name="Education & Experience"/>
     </div>

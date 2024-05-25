@@ -8,7 +8,7 @@ const Projects = () => {
     const { ref } = useSectionInView("Learning");
     return(
         <section    
-                className="flex flex-col xl:container  px-4 mt-12 md:mt-48 text-center scroll-mt-12 " 
+                className="flex flex-col xl:container  px-4 mt-12 md:mt-48 text-center scroll-mt-24 md:scroll-mt-12 " 
                 id="learning" 
                 ref={ref}>
             <div>

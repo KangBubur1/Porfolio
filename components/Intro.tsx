@@ -20,7 +20,7 @@ const Intro = () => {
     return (
         <motion.section 
                 id="home"
-                className="xl:container mt-12 md:mt-0 pt-12  md:pt-36  mx-4"
+                className="xl:container mt-12 md:mt-0 pt-12  md:pt-36  mx-4 scroll-mt-24 md:scroll-mt-12"
                 ref = {ref}
                 initial={{ y: 100, x: "0", opacity: 0}}
                 animate={{ y: 0, x: "0", opacity: 1 }}
