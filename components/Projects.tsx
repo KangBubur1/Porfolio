@@ -62,7 +62,7 @@ const Projects = () => {
                                 title="Face Detection" 
                                 tags="NextJS | Firebase | API" 
                                 text="A web attendance with face detection for employee and An admin panel management. " 
-                                href="https://github.com/KangBubur1/Facedetection"/>
+                                href="https://github.com/KangBubur1/Face_detection"/>
                </div>
                
                
