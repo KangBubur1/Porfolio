@@ -64,7 +64,14 @@ const Projects = () => {
                                 text="A web attendance with face detection for employee and An admin panel management. " 
                                 href="https://github.com/KangBubur1/Face_detection"/>
                </div>
-               
+               <div>
+                    <CardProjects 
+                                imgSrc="/Images/AirSehat.png" 
+                                title="Air Sehat" 
+                                tags="NextJS | FLASK | Python | Group Project " 
+                                text="AI prediction model to detect clean or bad water. #This project is still on going some features still are not useable" 
+                                href="https://github.com/KangBubur1/cleanwater"/>
+               </div>
                
                
             </div>
